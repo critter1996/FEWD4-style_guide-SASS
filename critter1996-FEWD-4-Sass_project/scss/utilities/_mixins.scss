@@ -1,0 +1,20 @@
+//======================================================================================
+//Mixins
+//======================================================================================
+
+
+
+
+// Media queries
+@mixin mq($break) {
+    @if $break == "small" {
+      @media (min-width: $break-sm) and (max-width: $break-md){
+        @content;
+      }
+    }
+    @else if $break == "medium" {
+      @media (min-width: $break-md) {
+       @content; 
+      }
+    }
+}

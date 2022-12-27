@@ -1,0 +1,28 @@
+//Variables---------------/////////////////////////
+
+
+ // Descriptive Base Colors
+ $white    : #fff;
+ $black    : #0b0b0b;
+ $gray     : #777;
+
+$emerald        : #5ece7f;
+$viking         : #58e1c1; 
+$sunglo         : #e67478;
+$coral          : #fd7856;
+$purple-majesty : #927bc1;
+$malibu         : #51ddfc;
+
+
+//Main Colors/////////
+$background-main : $white;
+$main-accent     : $viking;
+$text-color      : $gray; 
+$error-color     : $sunglo;
+
+
+
+//Media Query Breakpoints
+
+$break-sm: 1px;
+$break-md: 768px;
